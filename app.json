@@ -1,0 +1,39 @@
+{
+  "name": "music",
+  "description": "jmthon music.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/RR77T/music",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "هنا ضع كود سيشن بايروجرام",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "هنا ضع توكن البوت الخاص بك",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "هنا ضع اسم البوت الخاص بك.",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "هنا ضع الايبي ايدي الخاص بك",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "هنا ضع الايبي هاش الخاص بك",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "هنا ضع ايدي المطور يمكنك اضافه اكثر من شخص بوضع مسافه بين كل ايدي",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "لا تغيرها",
+      "required": true,
+      "value": "120"
+    }
+  }
+}
